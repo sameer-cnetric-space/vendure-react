@@ -1,0 +1,1117 @@
+.root {
+  display: grid;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  align-content: flex-start;
+  justify-items: center;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+  grid-template-columns:
+    1fr minmax(0, var(--plsmc-wide-chunk)) var(--plsmc-viewport-gap)
+    min(
+      var(--plsmc-standard-width),
+      calc(100% - var(--plsmc-viewport-gap) - var(--plsmc-viewport-gap))
+    )
+    var(--plsmc-viewport-gap) minmax(0, var(--plsmc-wide-chunk)) 1fr;
+}
+:where(.root > *) {
+  grid-column: 4;
+}
+.graphQlFetcher:global(.__wab_instance) {
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  position: relative;
+  min-width: 0;
+}
+.freeBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+.editAccoutnPage {
+  background: rgba(255, 255, 255, 1);
+  width: 1411px;
+  height: 1260px;
+  display: block;
+  flex-shrink: 0;
+}
+.frame {
+  background: rgba(255, 255, 255, 1);
+  transform: translate(-0.0010000000000047748px, 0px);
+  width: 1181px;
+  height: 817px;
+  display: block;
+  position: absolute;
+  top: 229px;
+  left: 93px;
+}
+.frame2 {
+  width: 324px;
+  height: 182px;
+  display: block;
+  position: absolute;
+  top: -74px;
+  left: 387px;
+}
+.image {
+  background: url("./images/image.png") 141px 1px / 43px 15px no-repeat;
+  width: 324px;
+  height: 17px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.accountEdit {
+  position: absolute;
+  top: 46px;
+  left: 46px;
+  width: 232px;
+  height: 31px;
+  transform: translate(0.48400000000000176px, 0px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text__lumeQ {
+  display: block;
+  font-size: 18px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 26px;
+  color: rgba(16, 16, 16, 1);
+}
+.frame3 {
+  background: rgba(0, 0, 0, 1);
+  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 1);
+  width: 324px;
+  height: 40px;
+  display: block;
+  position: absolute;
+  top: 507px;
+  left: 387px;
+  border-radius: 3px;
+}
+.text__v5Fl {
+  display: block;
+  font-size: 15px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 17px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 11px;
+  left: 137px;
+  transform: translate(-0.5px, 0px);
+}
+.frame4 {
+  width: 324px;
+  height: 561px;
+  display: block;
+  position: absolute;
+  top: 295px;
+  left: 474px;
+  overflow: hidden;
+}
+.frame5 {
+  width: 324px;
+  height: 59px;
+  display: block;
+  position: absolute;
+  top: 400px;
+  left: 0px;
+}
+.frame6 {
+  background: rgba(255, 255, 255, 1);
+  box-shadow: inset 0px 0px 0px 1px rgba(228, 228, 228, 1);
+  height: 40px;
+  display: block;
+  position: absolute;
+  top: -47px;
+  left: 0px;
+  right: 0px;
+  border-radius: 3px;
+}
+.emailAddress {
+  position: absolute;
+  top: 12px;
+  left: 17px;
+  width: 291px;
+  height: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text__ztrnK {
+  display: block;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 17px;
+  color: rgba(140, 140, 140, 1);
+}
+.frame7 {
+  background: rgba(255, 255, 255, 1);
+  box-shadow: inset 0px 0px 0px 1px rgba(228, 228, 228, 1);
+  height: 40px;
+  display: block;
+  position: absolute;
+  top: 59px;
+  left: 0px;
+  right: 0px;
+  border-radius: 3px;
+}
+.firstName {
+  position: absolute;
+  top: 12px;
+  left: 17px;
+  width: 291px;
+  height: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text___7SOge {
+  display: block;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 17px;
+  color: rgba(140, 140, 140, 1);
+}
+.frame8 {
+  background: rgba(255, 255, 255, 1);
+  box-shadow: inset 0px 0px 0px 1px rgba(228, 228, 228, 1);
+  height: 40px;
+  display: block;
+  position: absolute;
+  top: 112px;
+  left: 0px;
+  right: 0px;
+  border-radius: 3px;
+}
+.lastName {
+  position: absolute;
+  top: 12px;
+  left: 17px;
+  width: 291px;
+  height: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text__si6Pl {
+  display: block;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 17px;
+  color: rgba(140, 140, 140, 1);
+}
+.frame9 {
+  background: rgba(255, 255, 255, 1);
+  box-shadow: inset 0px 0px 0px 1px rgba(228, 228, 228, 1);
+  height: 40px;
+  display: block;
+  position: absolute;
+  top: 177px;
+  left: 0px;
+  right: 0px;
+  border-radius: 3px;
+}
+.mobileNumber {
+  position: absolute;
+  top: 12px;
+  left: 17px;
+  width: 291px;
+  height: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text__ricyf {
+  display: block;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 17px;
+  color: rgba(140, 140, 140, 1);
+}
+.frame10 {
+  background: rgba(255, 255, 255, 1);
+  box-shadow: inset 0px 0px 0px 1px rgba(228, 228, 228, 1);
+  height: 40px;
+  display: block;
+  position: absolute;
+  top: 244px;
+  left: 0px;
+  right: 0px;
+  border-radius: 3px;
+}
+.frame11 {
+  width: 10px;
+  height: 8px;
+  display: block;
+  position: absolute;
+  top: 17px;
+  right: 7px;
+  overflow: hidden;
+}
+.group {
+  width: 10px;
+  height: 8px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.group2 {
+  width: 10px;
+  height: 8px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.group3 {
+  width: 10px;
+  height: 8px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.group4 {
+  width: 10px;
+  height: 8px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.svg__yVqXa {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #bcbcbc;
+  width: 10px;
+  height: 7.142px;
+  display: block;
+  top: 0px;
+  left: 0px;
+}
+.india {
+  position: absolute;
+  top: 12px;
+  left: 17px;
+  width: 291px;
+  height: 17px;
+  transform: translate(0px, -0.5px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text__tTyIu {
+  display: block;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 17px;
+  color: rgba(140, 140, 140, 1);
+}
+.frame12 {
+  height: 40px;
+  display: block;
+  position: absolute;
+  top: 294px;
+  left: 0px;
+  right: 0px;
+}
+.frame13 {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 170px;
+  bottom: -3px;
+}
+.rectangle {
+  background: rgba(255, 255, 255, 1);
+  box-shadow: inset 0px 0px 0px 1px rgba(228, 228, 228, 1);
+  width: 154px;
+  height: 40px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 3px;
+}
+.male {
+  position: absolute;
+  top: 12px;
+  left: 62px;
+  width: 31px;
+  height: 16px;
+  transform: translate(-0.23499999999999943px, 0px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text___2Du8 {
+  display: block;
+  font-size: 13px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(140, 140, 140, 1);
+}
+.frame14 {
+  transform: translate(0.10900000000000887px, 0px);
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 170px;
+  right: 0px;
+  bottom: -3px;
+}
+.rectangle2 {
+  background: rgba(255, 255, 255, 1);
+  box-shadow: inset 0px 0px 0px 1px rgba(228, 228, 228, 1);
+  width: 154px;
+  height: 40px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 3px;
+}
+.female {
+  position: absolute;
+  top: 12px;
+  left: 54px;
+  width: 47px;
+  height: 16px;
+  transform: translate(-0.4069999999999965px, 0px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text__bNe1 {
+  display: block;
+  font-size: 13px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(140, 140, 140, 1);
+}
+.frame15 {
+  background: rgba(14, 14, 14, 1);
+  width: 1406px;
+  height: 342px;
+  display: block;
+  position: absolute;
+  top: 918px;
+  left: 0px;
+}
+.frame16 {
+  width: 1372px;
+  height: 213px;
+  display: block;
+  position: absolute;
+  top: 40px;
+  left: 34px;
+}
+.frame17 {
+  width: 1029px;
+  height: 213px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.frame18 {
+  width: 246px;
+  height: 170px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 6px;
+  overflow: hidden;
+}
+.frame19 {
+  width: 246px;
+  height: 167px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.findAStore {
+  position: absolute;
+  top: 8px;
+  left: 0px;
+  width: 69px;
+  height: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text__aed63 {
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 32.666px;
+  color: rgba(255, 255, 255, 1);
+}
+.becomeAMember {
+  position: absolute;
+  top: 44px;
+  left: 0px;
+  width: 99px;
+  height: 16px;
+  transform: translate(0px, -0.3440000000000012px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text___3JczK {
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 32.666px;
+  color: rgba(255, 255, 255, 1);
+}
+.signUpForEmail {
+  position: absolute;
+  top: 79px;
+  left: 0px;
+  width: 99px;
+  height: 16px;
+  transform: translate(0px, 0.3119999999999976px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text__r1Ej0 {
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 32.666px;
+  color: rgba(255, 255, 255, 1);
+}
+.sendUsFeedback {
+  position: absolute;
+  top: 111px;
+  left: 0px;
+  width: 94px;
+  height: 16px;
+  transform: translate(0px, -0.031999999999996476px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text__zNJgP {
+  display: block;
+  font-size: 10px;
+  text-align: center;
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 1);
+}
+.studentDiscounts {
+  position: absolute;
+  top: 142px;
+  left: 0px;
+  width: 105px;
+  height: 16px;
+  transform: translate(0px, -0.03200000000001069px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text__mIumO {
+  display: block;
+  font-size: 9px;
+  text-transform: uppercase;
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 32.666px;
+  color: rgba(255, 255, 255, 1);
+}
+.frame20 {
+  transform: translate(0.25px, 0px);
+  width: 246px;
+  height: 213px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 263px;
+  overflow: hidden;
+}
+.frame21 {
+  width: 246px;
+  height: 210px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.getHelp {
+  position: absolute;
+  top: 4px;
+  left: 0px;
+  width: 52px;
+  height: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text___53KeF {
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 1);
+}
+.orderStatus {
+  position: absolute;
+  top: 34px;
+  left: 0px;
+  width: 69px;
+  height: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text__a7B3F {
+  display: block;
+  font-size: 11px;
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 1);
+}
+.delivery {
+  position: absolute;
+  top: 65px;
+  left: 0px;
+  width: 44px;
+  height: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text___7BKIs {
+  display: block;
+  font-size: 12px;
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 1);
+}
+.returns {
+  position: absolute;
+  top: 96px;
+  left: 0px;
+  width: 43px;
+  height: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text__dM285 {
+  display: block;
+  font-size: 12px;
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 1);
+}
+.paymentOptions {
+  position: absolute;
+  top: 127px;
+  left: 0px;
+  width: 93px;
+  height: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text__d6LN {
+  display: block;
+  font-size: 11px;
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 1);
+}
+.contactUsOnNikecomInquiries {
+  position: absolute;
+  top: 158px;
+  left: 0px;
+  width: 181px;
+  height: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text__jLrnF {
+  display: block;
+  font-size: 11px;
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 1);
+}
+.contactUsOnAllOtherInquiries {
+  position: absolute;
+  top: 189px;
+  left: 0px;
+  width: 177px;
+  height: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text___4Gfnt {
+  display: block;
+  font-size: 11px;
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 1);
+}
+.frame22 {
+  transform: translate(-0.5px, 0px);
+  width: 246px;
+  height: 151px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 521px;
+  overflow: hidden;
+}
+.frame23 {
+  width: 246px;
+  height: 148px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.aboutNike {
+  position: absolute;
+  top: 4px;
+  left: 0px;
+  width: 65px;
+  height: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text___9Enw8 {
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 1);
+}
+.news {
+  position: absolute;
+  top: 34px;
+  left: 0px;
+  width: 31px;
+  height: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text__boccO {
+  display: block;
+  font-size: 12px;
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 1);
+}
+.careers {
+  position: absolute;
+  top: 65px;
+  left: 0px;
+  width: 43px;
+  height: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text__e4GqM {
+  display: block;
+  font-size: 12px;
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 1);
+}
+.investors {
+  position: absolute;
+  top: 96px;
+  left: 0px;
+  width: 49px;
+  height: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text__o0Jz3 {
+  display: block;
+  font-size: 11px;
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 1);
+}
+.sustainability {
+  position: absolute;
+  top: 127px;
+  left: 0px;
+  width: 71px;
+  height: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text___1Ps9L {
+  display: block;
+  font-size: 11px;
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 1);
+}
+.frame24 {
+  width: 337px;
+  height: 37px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 1029px;
+}
+.frame25 {
+  width: 30px;
+  height: 30px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 138px;
+  overflow: hidden;
+}
+.svg__nWcHx {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  display: block;
+  top: 0px;
+  left: 0px;
+}
+.frame26 {
+  width: 30px;
+  height: 30px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 92px;
+  overflow: hidden;
+}
+.svg__dx8Ke {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  display: block;
+  top: 0px;
+  left: 0px;
+}
+.frame27 {
+  width: 30px;
+  height: 30px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 46px;
+  overflow: hidden;
+}
+.svg__tlXbl {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  display: block;
+  top: 0px;
+  left: 0px;
+}
+.frame28 {
+  width: 30px;
+  height: 30px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  overflow: hidden;
+}
+.svg__vrGo {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  display: block;
+  top: 0px;
+  left: 0px;
+}
+.frame29 {
+  width: 1372px;
+  height: 62px;
+  display: block;
+  position: absolute;
+  top: 269px;
+  left: 34px;
+}
+.frame30 {
+  width: 672px;
+  height: 32px;
+  display: block;
+  position: absolute;
+  top: 12px;
+  left: 8px;
+}
+.autoLayoutHorizontal {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  flex-direction: row;
+  padding-right: 8.031px;
+}
+.autoLayoutHorizontal > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.autoLayoutHorizontal > :global(.__wab_flex-container) > *,
+.autoLayoutHorizontal
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > *,
+.autoLayoutHorizontal > :global(.__wab_flex-container) > picture > img,
+.autoLayoutHorizontal
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.frame31 {
+  width: 18px;
+  height: 15px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.svg__ubz43 {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 18px;
+  height: 15px;
+  display: block;
+  top: 0px;
+  left: 0px;
+}
+.text__sgGBl {
+  display: block;
+  font-size: 12px;
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 12px;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+}
+._2023NikeIncAllRightsReserved {
+  position: absolute;
+  top: 19px;
+  left: 76px;
+  width: 201px;
+  height: 14px;
+  transform: translate(0.03100000000000591px, 0px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text__cN2SC {
+  display: block;
+  font-size: 11px;
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 12px;
+  color: rgba(255, 255, 255, 1);
+}
+.frame32 {
+  width: 680px;
+  height: 46px;
+  display: block;
+  position: absolute;
+  top: 16px;
+  left: 686px;
+}
+.guides {
+  position: absolute;
+  top: 17px;
+  left: 304px;
+  width: 39px;
+  height: 14px;
+  transform: translate(-0.11000000000001364px, 0px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text__hoh09 {
+  display: block;
+  font-size: 12px;
+  text-align: center;
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 1);
+}
+.termsOfSale {
+  position: absolute;
+  top: 17px;
+  left: 370px;
+  width: 74px;
+  height: 14px;
+  transform: translate(-0.07900000000000773px, 0px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text__k87Xp {
+  display: block;
+  font-size: 12px;
+  text-align: right;
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 1);
+}
+.termsOfUse {
+  position: absolute;
+  top: 17px;
+  left: 471px;
+  width: 71px;
+  height: 14px;
+  transform: translate(0.2810000000000059px, 0px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text__l1HC {
+  display: block;
+  font-size: 12px;
+  text-align: right;
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 1);
+}
+.nikePrivacyPolicy {
+  position: absolute;
+  top: 17px;
+  left: 570px;
+  width: 103px;
+  height: 14px;
+  transform: translate(-0.03200000000003911px, 0px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text__rtQv9 {
+  display: block;
+  font-size: 11px;
+  text-align: right;
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 1);
+}
